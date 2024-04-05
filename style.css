@@ -1,0 +1,223 @@
+*, *::after, *::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+}
+
+
+body {
+   margin: 0;
+   font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-weight: 400;
+   line-height: 1.5;
+   color: #fff;
+   text-align: left;
+   background-color: #222
+}
+
+.container {
+   max-width: 1140px;
+   margin: 2rem auto;
+   padding: 0.4rem;
+}
+
+.text-center {
+   text-align: center !important;
+}
+
+.display-4 {
+   font-size: 3.5rem;
+   font-weight: 800;
+   line-height: 1.2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+
+form {
+   margin-top: 3rem;
+}
+
+.form-group {
+   margin-bottom: 1rem;
+   
+}
+
+label {
+   display: inline-block;
+   margin-bottom: .5rem;
+}
+
+.form-control {
+   display: block;
+   width: 100%;
+   padding: .375rem .75rem;
+   font-size: .9375rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #444;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid #222;
+   border-radius: .25rem;
+   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input-body{
+   height: 50px;
+
+}
+ .swatches {
+   margin-bottom: 2rem !important;
+   float: right !important;
+}
+
+.swatch {
+   width: 20px;
+   height: 20px;
+   float: left;
+   margin-right: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.bg-primary {
+   background-color: #375a7f !important;
+}
+
+.bg-secondary {
+   background-color: #444 !important;
+}
+
+.bg-success {
+   background-color: #00bc8c !important;
+}
+
+.bg-danger {
+   background-color: #e74c3c !important;
+}
+
+.bg-warning {
+   background-color: #f39c12 !important;
+}
+
+.bg-info {
+   background-color: #3498db !important;
+}
+
+.bg-light {
+   background-color: #adb5bd !important;
+}
+
+.bg-dark {
+   background-color: #303030 !important;
+}
+
+.bg-white {
+   background-color: #fff !important;
+}
+
+.btn-primary {
+   color: #fff;
+   background-color: #375a7f;
+   border-color: #375a7f;
+}
+
+.btn {
+   display: inline-block;
+   font-weight: 400;
+   color: #fff;
+   text-align: center;
+   vertical-align: middle;
+   user-select: none;
+   border: 1px solid transparent;
+   padding: .375rem .75rem;
+   font-size: .9375rem;
+   line-height: 1.5;
+   border-radius: .25rem;
+   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-block {
+   display: block;
+   width: 100%;
+}
+
+input {
+   background-color: transparent;
+}
+
+.card-header i {
+   float: right;
+}
+
+.hidden {
+   display: none
+}
+
+
+.swatch:hover, .active {
+   border: 3px solid rgb(247, 189, 189)
+}
+
+.notelist {
+   margin-top: 3rem !important;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   gap: 1.5rem;
+   flex-wrap: wrap;
+}
+
+
+.card {
+   position: relative;
+   width: 50%;
+   word-wrap: break-word;
+   background-color: #303030;
+   border: 1px solid rgba(0, 0, 0, .125);
+   border-radius: .25rem;
+   color: #fff;
+   flex: 1 0 300px;
+
+}
+
+.card-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   cursor: pointer;
+}
+
+.image-container img {
+   margin-left: 10px;
+   width: 20px;
+}
+
+
+.card-header:first-child {
+   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-body {
+   flex: 1 1 auto;
+   min-height: 1px;
+   padding: 1.25rem;
+}
+
+.card-body h5 {
+   margin-top: 1rem;
+   color: rgb(192, 240, 255);
+}
+
+.card-text:last-child {
+   margin-bottom: 0;
+}
+
+.note__selected {
+   background-color: rgba(11, 187, 5, 0.712);
+}
